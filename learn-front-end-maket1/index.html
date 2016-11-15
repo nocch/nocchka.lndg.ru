@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html>
+  <!--head.jade-->
+  <head>
+    <title>New project</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="assets/js/jquery.fullPage.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/CSSPlugin.min.js"> </script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+  </head>
+  <!--end head.jade-->
+  <body>
+    <!-- header.jade-->
+    <header></header>
+    <!--end header.jade-->
+    <content id="fullpage">
+      <section id="section1" class="vertical-scrolling">
+        <div id="slide1" class="horizontal-scrolling">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"><img src="../assets/img/xcam-logo-star.png" class="lgxcam-logo">
+              <div class="text promo">
+                <h1>Двойная&nbsp;камера</h1>
+              </div>
+              <div class="text promo">
+                <h2>Умножай возможности</h2>
+              </div>
+              <button class="redbutton promobutton">
+                <div class="text textinbutton">Подробнее</div>
+              </button>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+              <div class="row">
+                <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3"><img src="../assets/img/tel01.png" class="tel01"></div>
+              </div>
+            </div>
+            <div id="ps1" class="text ps">*ЭлДжи Икс кэм</div>
+          </div>
+        </div>
+        <div id="slide2" class="horizontal-scrolling">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"><img src="../assets/img/xcam-logo-star.png" class="lgxcam-logo">
+              <div class="text promo">
+                <h1>Второй&nbsp;дисплей</h1>
+              </div>
+              <div class="text promo">
+                <h2>Умножай возможности</h2>
+              </div>
+              <button class="redbutton promobutton">
+                <div class="text textinbutton">Подробнее</div>
+              </button>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+              <div class="row">
+                <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3"><img src="../assets/img/tel02.png" class="tel01"></div>
+              </div>
+            </div>
+            <div id="ps2" class="text ps">*ЭлДжи Икс кэм</div>
+          </div>
+        </div>
+        <div id="slide3" class="horizontal-scrolling">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"><img src="../assets/img/xcam-logo-star.png" class="lgxcam-logo">
+              <div class="text promo">
+                <h1>Мощный аккумулятор</h1>
+              </div>
+              <div class="text promo">
+                <h2>Умножай возможности</h2>
+              </div>
+              <button class="redbutton promobutton">
+                <div class="text textinbutton">Подробнее</div>
+              </button>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+              <div class="row">
+                <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3"><img src="../assets/img/tel03.png" class="tel01"></div>
+              </div>
+            </div>
+            <div id="ps3" class="text ps">*ЭлДжи Икс кэм</div>
+          </div>
+        </div>
+        <div id="slide4" class="horizontal-scrolling">
+          <div class="item">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"><img src="../assets/img/xcam-logo-star.png" class="lgxcam-logo">
+              <div class="text promo">
+                <h1>Тонкий&nbsp;корпус</h1>
+              </div>
+              <div class="text promo">
+                <h2>Умножай возможности</h2>
+              </div>
+              <button class="redbutton promobutton">
+                <div class="text textinbutton">Подробнее</div>
+              </button>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+              <div class="row">
+                <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3"><img src="../assets/img/tel04.png" class="tel01"></div>
+              </div>
+            </div>
+            <div id="ps4" class="text ps">*ЭлДжи Икс кэм</div>
+          </div>
+        </div>
+      </section>
+      <section id="section2" class="vertical-scrolling">
+        <div class="horizontal-scrolling">
+          <div class="item">
+            <div class="row">
+              <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 col-lg-offset-5 col-md-offset-3 col-sm-offset-5 col-xs-offset-0"><img src="../assets/img/lgxcam-logo.png" class="lgxcam-logo-center"></div>
+            </div>
+            <div class="row promo_nav">
+              <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+                <div class="text promo textsexion2-abs">
+                  <h1>Двойная&nbsp;камера</h1>
+                  <p>Первая из двух основных камер с разрешением 13 Мп обеспечит высокое качество фотографий, а вторая 5-мегапиксельная камера с углом обзора 120° позволит вам делать незабываемые широкоформатные снимки. Вы можете доверять LG X cam так же, как собственным глазам: каждая фотография станет реалистичным отражением самых важных моментов вашей жизни. В кадр поместится всё!</p>
+                  <button class="redbutton fullarticlebutton">
+                    <div class="text textinbutton">Узнать больше</div>
+                  </button><img src="../assets/img/ugol.png" class="img-ugol">
+                </div>
+              </div>
+              <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12 telzoomcontainer"><img src="../assets/img/tel05.png" id="tel05">
+                <div id="outstyletel05"><img src="../assets/img/tel05zoom.png" id="tel05anim"><img src="../assets/img/tel05screen1.png" id="tel05screen1"><img src="../assets/img/tel05screen2.png" id="tel05screen2"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="section3" class="vertical-scrolling">
+        <div class="horizontal-scrolling">
+          <div class="item"> <img src="../assets/img/telbg_6.png" class="tel06"><img src="../assets/img/tel06-el01.png" id="tel06-el01"><img src="../assets/img/tel06-el02.png" id="tel06-el02"><img src="../assets/img/tel06-el03.png" id="tel06-el03">
+            <div class="row">
+              <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 col-lg-offset-5 col-md-offset-3 col-sm-offset-5 col-xs-offset-0"><img src="../assets/img/lgview-logo.png" class="lgxcam-logo-center"></div>
+            </div>
+            <div class="row promo_nav">
+              <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7"></div>
+              <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                <div class="text promo">
+                  <h1>Второй дисплей</h1>
+                </div>
+                <div class="text promo">
+                  <p>Всегда активный второй дисплей позволяет следить за необходимой информацией. </p>
+                  <p>Основной дисплей выключен: на дополнительном можно настроить доступ к быстрому меню, управлять аудиоплеером или просто следить за временем и зарядом аккумулятора.</p>
+                  <p>Основной дисплей активен: на втором можно переключаться между приложениями, получить доступ к избранным контактам.</p>
+                </div>
+                <button class="redbutton promobutton">
+                  <div class="text textinbutton">Узнать больше</div>
+                </button><img src="../assets/img/tel06-drawing.png" class="drawing06">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="section4" class="vertical-scrolling">
+        <div class="horizontal-scrolling">
+          <div class="item">
+            <div class="row">
+              <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-lg-offset-5 col-md-offset-3 col-sm-offset-5 col-xs-offset-5"><img src="../assets/img/lg-power.png" class="lgxcam-logo-center"></div>
+            </div>
+            <div class="row promo_nav">
+              <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                <div class="text promo">
+                  <h1>Мощный аккумулятор</h1>
+                </div>
+                <div class="text promo">
+                  <p>Главная особенность LG X power — мощный аккумулятор 4100 мАч, который уместился в тонком и элегантном корпусе толщиной всего 7,9 мм. LG X power заряжается в 2 раза быстрее и поддерживает функцию USB OTG, которая позволяет работать смартфону в качестве внешнего зарядного устройства.</p>
+                </div>
+                <button class="redbutton promobutton">
+                  <div class="text textinbutton">Узнать больше</div>
+                </button><img src="../assets/img/img-power.png" class="drawing07">
+                <div class="usbotg">
+                  <p>Кабель USB OTG приобретается отдельно.</p>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-0"><img src="../assets/img/tel07.png"></div>
+              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <div class="powertime">
+                  <h1>1,02 ч</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="section5" class="vertical-scrolling">
+        <div class="horizontal-scrolling">
+          <div class="item">
+            <div class="row">
+              <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-lg-offset-5 col-md-offset-3 col-sm-offset-5 col-xs-offset-5"><img src="../assets/img/lg-style.png" class="lgxcam-logo-center"></div>
+            </div>
+            <div class="row promo_nav">
+              <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12"><img src="../assets/img/tel08-1.png" id="tel08-1anim"><img src="../assets/img/tel08-2.png" id="tel08-2anim"></div>
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="text promo">
+                  <h1>Тонкий корпус</h1>
+                </div>
+                <div class="text promo">
+                  <p>LG X style отличается изящным и ультратонким корпусом, всего 6,9 мм. Благодаря изогнутым линиям и оптимальному размеру дисплея в 5 дюймов смартфон идеально лежит в руке и помещается в любой карман или маленькую сумочку.</p>
+                </div>
+                <button class="redbutton promobutton">
+                  <div class="text textinbutton">Узнать больше</div>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="section6" class="vertical-scrolling">
+        <div class="horizontal-scrolling">
+          <div class="item"> 
+            <div class="row promo_nav">
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <table>
+                  <tr>
+                    <td class="w20pr">
+                      <p>&nbsp;</p>
+                    </td>
+                    <td class="w20pr"><img src="../assets/img/lgxcam-logo.png"></td>
+                    <td class="w20pr"><img src="../assets/img/lgview-logo.png"></td>
+                    <td class="w20pr"><img src="../assets/img/lg-power.png"></td>
+                    <td class="w20pr"><img src="../assets/img/lg-style.png"></td>
+                  </tr>
+                  <tr class="bbtm">
+                    <td class="blcolor">
+                      <p>Дисплей</p>
+                    </td>
+                    <td class="brcol">
+                      <p>5,2” FHD</p>
+                    </td>
+                    <td class="grcol">
+                      <p>4,93” HD — основной<br>1,76" HD — второй</p>
+                    </td>
+                    <td class="redcol">
+                      <p>5,3” HD</p>
+                    </td>
+                    <td class="magcol">
+                      <p>5,0”	 HD</p>
+                    </td>
+                  </tr>
+                  <tr class="bbtm">
+                    <td class="blcolor">
+                      <p>Дизайн</p>
+                    </td>
+                    <td class="brcol">
+                      <p>Тонкий изогнутый<br>корпус</p>
+                    </td>
+                    <td class="grcol">
+                      <p>Изящный дизайн</p>
+                    </td>
+                    <td class="redcol">
+                      <p>Тонкий изогнутый<br>корпус 7,9 мм</p>
+                    </td>
+                    <td class="magcol">
+                      <p>Тонкий изогнутый<br>корпус 6,9 мм</p>
+                    </td>
+                  </tr>
+                  <tr class="bbtm">
+                    <td class="blcolor">
+                      <p>Основная камера</p>
+                    </td>
+                    <td class="brcol">
+                      <p>стандартная 13 Мп,<br>широкоугольная 5 Мп</p>
+                    </td>
+                    <td class="grcol">
+                      <p>13 Мп</p>
+                    </td>
+                    <td class="redcol">
+                      <p>13 Мп</p>
+                    </td>
+                    <td class="magcol">
+                      <p>8 Мп</p>
+                    </td>
+                  </tr>
+                  <tr class="bbtm">
+                    <td class="blcolor">
+                      <p>Фронтальная камера</p>
+                    </td>
+                    <td class="brcol">
+                      <p>8 Мп</p>
+                    </td>
+                    <td class="grcol">
+                      <p>8 Мп</p>
+                    </td>
+                    <td class="redcol">
+                      <p>5 Мп</p>
+                    </td>
+                    <td class="magcol">
+                      <p>5 Мп</p>
+                    </td>
+                  </tr>
+                  <tr class="bbtm">
+                    <td class="blcolor">
+                      <p>Процессор</p>
+                    </td>
+                    <td class="brcol">
+                      <p>8-ядерный, 1,14 ГГц</p>
+                    </td>
+                    <td class="grcol">
+                      <p>4-ядерный, 1,2 ГГц</p>
+                    </td>
+                    <td class="redcol">
+                      <p>4-ядерный, 1,3 ГГц</p>
+                    </td>
+                    <td class="magcol">
+                      <p>4-ядерный, 1,3 ГГц</p>
+                    </td>
+                  </tr>
+                  <tr class="bbtm">
+                    <td class="blcolor">
+                      <p>Память (RAM / ROM)</p>
+                    </td>
+                    <td class="brcol">
+                      <p>2 Гб / 16 Гб</p>
+                    </td>
+                    <td class="grcol">
+                      <p>2 Гб / 16 Гб</p>
+                    </td>
+                    <td class="redcol">
+                      <p>2 Гб / 16 Гб</p>
+                    </td>
+                    <td class="magcol">
+                      <p>1,5 Гб / 16 Гб</p>
+                    </td>
+                  </tr>
+                  <tr class="bbtm">
+                    <td class="blcolor">
+                      <p>Аккумулятор</p>
+                    </td>
+                    <td class="brcol">
+                      <p>2 520 мАч</p>
+                    </td>
+                    <td class="grcol">
+                      <p>2 300 мАч</p>
+                    </td>
+                    <td class="redcol">
+                      <p>4 100 мАч</p>
+                    </td>
+                    <td class="purgcol">
+                      <p>2 100 мАч съёмный</p>
+                    </td>
+                  </tr>
+                  <tr class="blcolor">
+                    <td class="blcolor">
+                      <p>Размеры (ш×в×г, мм)</p>
+                    </td>
+                    <td class="brcol">
+                      <p>147,5 × 73,6 × 6,9</p>
+                    </td>
+                    <td class="grcol">
+                      <p>142,6 × 761,8 × 7,1</p>
+                    </td>
+                    <td class="redcol">
+                      <p>148,9 × 74,9 × 7,9</p>
+                    </td>
+                    <td class="magcol">
+                      <p>144,8 × 71,4 × 6,9</p>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="section7" class="vertical-scrolling">
+        <div class="horizontal-scrolling">
+          <div class="item">
+            <div class="row promo_nav">
+              <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5"><img src="../assets/img/tel10.png" id="tel10anim"><img src="../assets/img/tel09.png" id="tel09anim"></div>
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-lg-offset-1 col-md-offset-1 col-sm-offset-1"><img src="../assets/img/lg-power.png" class="logo10"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="section8" class="vertical-scrolling">
+        <div class="horizontal-scrolling">
+          <div class="item">
+            <div class="row promo_nav">
+              <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                <div class="text promo">
+                  <h1>Android® 6.0<br> Marshmallow</h1>
+                </div>
+                <div class="text promo">
+                  <p>Новейшая версия популярной операционной системы Android, вкоторой реализованы последние технические достижения.</p>
+                </div>
+              </div>
+              <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5"><img src="../assets/img/androidrobot.png"></div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <h1>Удобный пользовательский интерфейс</h1>
+                <p>Благодаря новой версии интерфейса UX 5.0 пользователю будут доступны удобные функции.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                <p><strong>Обновлённый домашний экран</strong></p>
+                <p>Теперь он совмещён с меню приложений для упрощения работы.</p>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                <p><strong>Функция «Мировое время»</strong></p>
+                <p>Позволит быстро узнать время в различных городах одним движением руки.</p>
+              </div>
+              <div class="col-lg-3 col-md-13 col-sm-3 col-xs-3">
+                <p><strong>Функция Quick Share</strong></p>
+                <p>Позволяет моментально поделиться фото или видео в социальных сетях.</p>
+              </div>
+              <div class="col-lg-3 col-md-13 col-sm-3 col-xs-3">
+                <p><strong>Функция LG Backup</strong></p>
+                <p>Легко создавай и переноси резервные копии данных с твоего предыдущего смартфона на новый по беспроводной связи.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--img(src='../assets/img/test.jpg')#test-->
+      </section>
+    </content>
+  </body>
+  <footer>
+    <section class="container">
+      <div class="row">
+        <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12"><a href="#" class="footertext">© LG Electronics, 2016</a></div>
+        <div class="col-md-4 col-sm-4 col-xs-12 col-md-offset-0 col-lg-offset-6 col-sm-offset-0">
+          <div class="social_blocks">&nbsp;<a href="#" class="social facebook">&nbsp;     </a><a href="#" class="social tw">&nbsp;</a><a href="#" class="social vk">&nbsp;</a><a href="#" class="social vk">&nbsp;</a></div>
+        </div>
+      </div>
+    </section>
+  </footer>
+  <!--end header.jade-->
+  <!--footer.jade-->
+  <!--ga.jade-->
+  <script>
+    $('td').on('mouseenter mouseleave', function()
+    {var i = this.cellIndex;
+    $(this).closest('table').find('tr').each(function() {
+    $(this).find('td').eq(i).toggleClass('hover');
+    });
+    });
+  </script>
+  <!--end ga.jade-->
+  <!--fullpage.jage-->
+  <script>
+    $('#fullpage').fullpage({
+    sectionSelector: '.vertical-scrolling',
+    slideSelector: '.horizontal-scrolling',
+    controlArrows: false,
+    scrollingSpeed: 1000,
+    slidesNavigation: true,
+    slidesNavPosition: 'bottom',
+    anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'lastPage5', 'lastPage6', 'lastPage7', 'lastPage8', 'lastPage9', 'lastPage10', 'lastPage11'],
+            afterLoad: function(anchorLink, index){
+            
+            var loadedSection = $(this);
+    
+            //using index
+            if(index == 3){
+                
+            };
+    
+            //using anchorLink
+            
+            if(anchorLink == 'lastPage5'){
+                TweenMax.staggerTo("#tel08-1anim", 0.8, {ease: "linear", left: "100px", top: "50px", opacity: 1}, 0.5);
+                TweenMax.staggerTo("#tel08-2anim", 0.8, {ease: "linear", left: "150px", top: "50px", opacity: 1}, 0.5);
+            };
+            
+            if(anchorLink == 'fourthPage'){
+                TweenMax.staggerTo("#tel08-1anim", 0.1, {left: "-300px", top: "-300px", opacity: 0}, 0.5);
+                TweenMax.staggerTo("#tel08-2anim", 0.1, {left: "600px", top: "50px", opacity: 0}, 0.5);
+            };
+            
+            if(anchorLink == 'lastPage6'){
+                TweenMax.staggerTo("#tel08-1anim", 0.1, {left: "-300px", top: "-300px", opacity: 0}, 0.5);
+                TweenMax.staggerTo("#tel08-2anim", 0.1, {left: "600px", top: "50px", opacity: 0}, 0.5);
+            };
+            
+            if(anchorLink == 'lastPage7'){
+                TweenMax.staggerTo(["#tel09anim","#tel10anim"], 1, {ease: "Elastic.easeOut", top: "100px"}, 0.5);
+            };
+            
+            if(anchorLink == 'lastPage6'){
+            TweenMax.staggerTo(["#tel09anim","#tel10anim"], 1, {top: "-500px"});
+            };
+            
+            if(anchorLink == 'lastPage8'){
+            TweenMax.staggerTo(["#tel09anim","#tel10anim"], 1, {top: "-500px"});
+            };
+            
+            
+            
+            if(anchorLink == 'secondPage'){
+            TweenMax.staggerTo("#tel05anim", 1, {scale:2,repeat:1,yoyo:true});
+            
+            };
+            
+            
+            if(anchorLink == 'thirdPage'){
+            TweenMax.staggerTo(["#tel06-el01", "#tel06-el02", "#tel06-el03"], 1, {top:0, opacity:1}, 0.5);
+            };
+            
+            if(anchorLink == 'secondPage'){
+            TweenMax.staggerTo(["#tel06-el01", "#tel06-el02", "#tel06-el03"], 1, {top:"100px", opacity:0}, 0);
+            
+            };
+            if(anchorLink == 'fourthPage'){
+            TweenMax.staggerTo(["#tel06-el01", "#tel06-el02", "#tel06-el03"], 1, {top:"100px", opacity:0}, 0);
+            
+            };            
+            
+            },
+    afterRender: function () {
+            setInterval(function () {
+            $.fn.fullpage.moveSlideRight();
+            }, 4000);
+            }
+    });
+    $('#moveSlideRight').click(function(e){
+    e.preventDefault();
+    $.fn.fullpage.moveSlideRight();
+    });
+    
+    
+    
+  </script>
+  <!--end fullpage.jage-->
+  <!--ga.jade-->
+  <script>
+    $("#tel05anim").hover(over, out);
+    
+    function over(){
+        TweenMax.to(this, 1, {scale:2});
+    }
+    
+    function out(){
+        TweenMax.to(this, 1, {scale:1});
+    }
+    
+    //TweenMax.staggerTo(["#tel09anim","#tel10anim"], 1, {ease: "Elastic.easeOut", top: "100px"}, 0.5);
+    
+        //$("li").hover(over, out);
+    
+        //function over(){
+          //TweenMax.to(this, 0.5, {backgroundColor:"red"})
+          //TweenMax.to($(this).find("span"), 0.3, {rotation:360, scale:2, x:50, delay:0.6})
+        //}
+    
+        //function out(){
+          //TweenMax.to(this, 0.5, {backgroundColor:"blue"})
+          //TweenMax.to($(this).find("span"), 0.3, {rotation:0, scale:1, x:0, overwrite:"all"})
+  </script>
+  <!--}-->
+</html>
+<!--index.jade-->
