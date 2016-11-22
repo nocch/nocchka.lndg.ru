@@ -427,10 +427,27 @@
     });
   </script>
   <!--end ga.jade-->
+  
+<script> 
+var isPhoneDevice = "ontouchstart" in document.documentElement; 
+$(document).ready(function() {
+        if(isPhoneDevice){
+   $('#fullpage').fullpage({
+        scrollOverflow: false,
+                resize : false
+      });
+        }
+            else{
+            $('#fullpage').fullpage({
+        scrollOverflow: true,
+                resize : false
+      });
+            }
+        });
+</script> 
   <!--fullpage.jage-->
   <script>
-    var doFullpage = document.documentElement.clientWidth;
-                if (doFullpage > 321) {
+
                    
     
     
@@ -515,7 +532,7 @@
     $.fn.fullpage.moveSlideRight();
     });
     
-    }
+    
  
   </script>
   <!--end fullpage.jage-->
