@@ -429,6 +429,11 @@
   <!--end ga.jade-->
   <!--fullpage.jage-->
   <script>
+    var doFullpage = document.documentElement.clientWidth;
+                if (doFullpage > 321) {
+                   
+    
+    
     $('#fullpage').fullpage({
     sectionSelector: '.vertical-scrolling',
     slideSelector: '.horizontal-scrolling',
@@ -510,7 +515,7 @@
     $.fn.fullpage.moveSlideRight();
     });
     
-    
+    }
  
   </script>
   <!--end fullpage.jage-->
