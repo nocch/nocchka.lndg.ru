@@ -1,0 +1,586 @@
+.mobile {
+	min-width:660px;
+    width: 100%;
+    font-size: 16px;
+}
+.mobile .wrap {
+	width: 608px;
+    margin: 0px auto;
+}
+.mobile .show-desktop {
+    display: none!important;
+}
+.mobile .show-mobile {
+    display: block!important;
+}
+.mobile .arrows{
+	display: none;
+}
+.mobile .section-2 .slider-from-cont .info {
+	white-space: normal;
+}
+/*---------------------HEADER----------------*/
+.mobile .header{
+	height: 95px;
+}
+.mobile .header .logo{
+	margin: 33px 0 0 50px;
+}
+.mobile .header .menu-button{
+	width: 50px;
+	height: 31px;
+	margin: 39px 44px 0 0;
+}
+.mobile  a{
+	display: inline-block;
+}
+.mobile .right-menu{
+	width: 100%;
+}
+.mobile .right-menu .options{
+	font-size: 1.5625rem;
+}
+.mobile .right-menu .tvs, .mobile .right-menu .how-chose{
+	font-size: 2.875rem;
+}
+/*--------------END OF HEADER-----------------*/
+
+/*-------------Section one -------------------*/
+
+.mobile .section-1{
+	margin: 100px 0px 0px;
+	height: 680px;
+}
+.mobile .section-1 .text-content{
+	margin: 63px 0px 0px 28px;
+	width: 95%;
+}
+.mobile .section-1 .image-content{
+	margin: 15px -16px 0px 0px;
+	width: 592px;
+}
+.mobile .section-1 .info br {
+	display: none;
+}
+/*-------------End of section one -------------------*/
+
+/*----------------Section two ----------------------------*/
+.mobile  .section-2 {
+    margin: 78px 0px 0px;
+    height: 1470px;
+}
+.mobile .section-2 .table th:nth-child(odd){
+	padding-right: 26px;
+}
+.mobile  .section-2 .info-container {
+    float: right;
+    width: 578px;
+    margin: 13px 0px 0px;
+}
+.mobile .section-2 .tv-image {
+    width: 405px;
+    height: 257px;
+    margin: 13px 0px 0px -163px;
+    float: left;
+}
+.mobile .section-2 .slider {
+    width: 271px;
+}
+.mobile .section-2 .tv-calc {
+    margin: 40px 3px 0px 0px;
+    float: right;
+    width: 255px;
+}
+.mobile .section-2 .right-tv-text {
+    margin: 262px 70px 0 0px;
+}
+.mobile .section-2 .notice-container{
+	margin: 1.875rem 0rem 1rem 0.5rem;
+}
+.mobile .section-2 h5{
+	margin: 0.75rem 0rem 0rem -0.4375rem;		
+}
+/*---------------- End of section two ----------------------------*/
+
+/*----------------Section three ----------------------------*/
+.mobile .section-3 {
+    margin: 30px 0px 0px 30px;
+    height: 1080px;
+    padding-top: 0;
+}
+.mobile .section-3 .tv-4k-container {
+    width: 583px;
+    height: 370px;
+    float: right;
+    margin: -44px -7px 0px 0px;
+}
+.mobile .section-3 .tv-4k-container .notice-container {
+    margin: -34px 0 0 8px;
+}
+.mobile .section-3 .tv-4k-container .red-line {
+    height: 84px;
+    margin: 13px 0 0 0;
+}
+.mobile .section-3 .info-container.second {
+    width: 540px;
+    float: left;
+    margin: 153px 0 0 0;
+}
+.mobile .section-3 .info-container a:first-child {
+    margin: 0px 100px 0px 0px;
+}
+/*----------------End of section three ----------------------------*/
+
+/*----------------Section four ----------------------------*/
+.mobile .section-4{
+	height: 2010px;
+}
+.mobile .section-4 .info-container {
+    margin: 50px 38px 0 0;
+}
+.mobile .section-4 .oled-tv {
+    background: url('../img/oled.png') no-repeat;
+    background-size: contain;
+    width: 517px;
+    height: 356px;
+    margin: 15px 0px 0px 45px;
+    overflow: visible;
+    position: relative;
+}
+.mobile .section-4 .oled-slider-wrap {
+	width: 508px;
+}
+.mobile .section-4 .bad-oled-cont {
+    width: 0px;
+    height: 285px;
+    position: absolute;
+    top: 20px;
+    left: 49px;
+    overflow: hidden;
+}
+.mobile .section-4 .info-container.second{
+	margin: 79px 38px 0px 0px;
+}
+.mobile .section-4 h5{
+	color: #a50034;
+	font-family: lg_smartbold;
+	font-size: 22px;
+	margin: 108px 0px 0px -7px;		
+}
+.mobile .section-4 .notice-container{
+	color: #a6b1bf;
+	font-family: lg_smartregular;
+	font-size: 18px;
+	margin: -110px 0px 0px 6px;
+	width: 510px;
+}
+.mobile .section-4 .red-line{
+	background: url('../img/bg-line.png') top left repeat-y;
+	height: 108px;
+	float: left;
+	width: 2px;
+	margin: 11px 0 0 0;
+}
+.mobile .section-4 .notice {
+    margin: 6px 0px 24px 24px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+.mobile .section-4 .links {
+	margin: 28px 0px 0px 0;
+	width: 220px;
+}
+.mobile .section-4 a{
+	font-family: lg_smartbold;
+	font-size: 22px;	
+	text-decoration: none;
+	border-bottom: 1px solid #a50034;
+	color: #333333;
+	display: inline-block;
+	margin: 0 0 0px 0;
+	line-height: 22px;
+}
+/*----------------End of section four ----------------------------*/
+
+/* Section HDR */
+
+.mobile .section-hdr{
+	height: 1550px;
+}
+
+.mobile .section-hdr .hdr-tv{
+	background: url("../img/hrd-tv.png") no-repeat;
+	background-size: contain;
+	width: 100%;
+	height: 325px;
+	margin: 15px 0px 0px 45px;
+	overflow: visible;
+	position: relative;
+}
+
+.mobile .section-hdr .notice-container.first {
+	color: #a6b1bf;
+	font-family: lg_smartregular;
+	font-size: 18px;
+	margin: 139px 0px 50px 35px;
+	width: 530px;
+}
+
+.mobile .section-hdr h5 {
+	color: #a50034;
+	font-family: lg_smartbold;
+	font-size: 22px;
+	margin: 108px 0px 0px -7px;
+}
+
+.mobile .section-hdr .red-line {
+	background: url('../img/bg-line.png') top left repeat-y;
+	height: 170px;
+	float: left;
+	width: 2px;
+	margin: 11px 0 0 0;
+}
+
+.mobile .section-hdr .notice {
+	margin: 6px 0px 24px 24px;
+	line-height: 24px;
+	letter-spacing: 0.5px;
+}
+
+.mobile .section-hdr .info-container{
+	margin-bottom: 50px;
+}
+
+.mobile .hdr-tv-block{
+	float: none;
+}
+
+.mobile .section-hdr .bad-hdr-cont{
+	height: 350px;
+	position: absolute;
+	top: 4px;
+	left: 48px;
+	overflow: hidden;
+}
+
+.mobile .bad-hdr{
+	width: 520px;
+	height: 320px;
+}
+
+.mobile .section-hdr .white-line{
+	height: 304px;
+}
+
+.mobile .hdr-default,
+.mobile .hdr{
+	bottom: -30px;
+}
+
+.mobile .hdr{
+	right: 40px;
+}
+
+/*----------------Section five ----------------------------*/
+.mobile .section-5{
+	height: 1170px;
+}
+.mobile .section-5 .info-container {
+    margin: 31px 0 0 31px;
+    float: none;
+}
+.mobile .section-5 h5{
+	color: #a50034;
+	font-family: lg_smartbold;
+	font-size: 22px;
+	margin: -136px 0px 0px -4px;		
+}
+.mobile .section-5 .notice-container.first{
+	color: #a6b1bf;
+	font-family: lg_smartregular;
+	font-size: 18px;
+	margin: 139px 0px 0px 35px;
+	width: 530px;
+}
+.mobile .section-5 .notice-container.first .red-line{
+	background: url('../img/bg-line.png') top left repeat-y;
+	height: 86px;
+	float: left;
+	width: 2px;
+	margin: 15px 0 0 0;
+}
+.mobile .section-5 .notice-container.first .notice{
+	margin: 8px 0px 0px 24px;
+	line-height: 24px;
+	letter-spacing: 0.5px;
+}
+.mobile .section-5 .info-container.second{
+	margin: 19px 0px 0px 30px;
+}
+.mobile .section-5 .smart-tv-container .smart-tv {
+	background: url('../img/smart-tv-small.png') no-repeat;
+    margin: 31px 2px 0 0;
+	width: 591px;
+}
+.mobile .section-5 .smart-tv-container .notice-container.second {
+    margin: -142px 0px 0px 17px;
+    width: 420px;
+}
+.mobile .section-5 a{
+	font-family: lg_smartbold;
+	font-size: 22px;	
+	text-decoration: none;
+	border-bottom: 1px solid #a50034;
+	color: #333333;
+	display: inline;
+}
+.mobile .section-5 .links{
+	margin: 43px 0px 0px 18px;
+	width: 540px;
+}
+.mobile .section-5 .links .pult-link{
+	float: right;
+	width: 203px;
+	line-height: 28px;
+	margin: -3px 66px 0px 0px;
+}
+/*----------------End of section five ----------------------------*/
+
+/*----------------Section six ----------------------------*/
+.mobile .section-6 {
+    height: 1120px;
+}
+.mobile .section-6 .info-container {
+    margin: 19px 38px 0 0px;
+}
+.mobile .section-6 .sofa-tv {
+	background: url('../img/sofa-tv-small.png') no-repeat;
+    width: 545px;
+	height: 386px;
+	margin: -1px 0 26px 29px;
+}
+.mobile .section-6 .sofa-tv-container .links {
+    width: 600px;
+    margin: -17px 0px 0px 34px;
+}
+/*----------------End of section six ----------------------------*/
+
+
+/*-------------Section seven ------------------------------*/
+.mobile .section-7 {
+    height: 1340px;
+}
+.mobile .section-7 .info br {
+	display: none;
+}
+.mobile .section-7 .info-container {
+    margin: 21px 0 0 30px;
+}
+.mobile .section-7 .pmi-container {
+    float: right;
+    margin: 19px -5px 0 0;
+    width: 570px;
+}
+.mobile .section-7 .pmi-container .notice-container {
+    margin: 26px 0px 39px -4px;
+}
+.mobile .section-7 .pmi-container .red-line{	
+	height: 10.375rem;
+}
+/*-------------End of section seven ------------------------------*/
+
+/*-------------Section eight ------------------------------*/
+
+.mobile .section-8{
+    height: 801px;
+}
+.mobile .section-8 .info-container {
+	margin: 31px -16px 0 0;
+	width: 593px;
+}
+.mobile .section-8 .image-container {
+    width: 488px;
+    height: 318px;
+    margin: 20px 0 0 72px;
+}
+.mobile .section-8 .links a{
+	font-family: lg_smartbold;
+	font-size: 22px;	
+	text-decoration: none;
+	border-bottom: 1px solid #a50034;
+	color: #333333;
+	display: inline-block;
+	margin: 20px 0 7px 0;
+}
+.mobile .section-8 .links{
+	margin: 35px 0px 0px 4px;
+}
+.mobile .section-8 .links {
+    margin: 224px 0px 0px -37px;
+}
+
+.mobile .section-8 .info-container .info {
+	width: 570px;
+}
+/*-------------End of section eight ------------------------------*/
+
+/*-------------Section nine ------------------------------*/
+.mobile .section-9{
+	height: 850px;
+}
+.mobile .section-9 .info-container {
+    width: 540px;
+    float: none;
+    margin: 59px 0 0 32px;
+    position: static;
+    right: 0;
+}
+.mobile .section-9 .left-container .notice-container {
+    margin: -99px 0px 0px 166px;
+}
+.mobile .section-9 .curve-tv {
+    margin: -120px 0 0 -26px;
+	width: 640px;
+}
+.mobile .section-9 .links a{
+	font-family: lg_smartbold;
+	font-size: 22px;	
+	text-decoration: none;
+	border-bottom: 1px solid #a50034;
+	color: #333333;
+	display: inline-block;
+	margin: 0 0 7px 0;
+}
+.mobile .section-9 .links{
+	margin: -65px 0px 0px 167px;
+}
+/*-------------End of section nine ------------------------------*/
+
+.mobile .info-container .info {
+	width: 98%;
+}
+
+.mobile .popular-models {
+    margin: 50px auto;
+    width: 100%;
+}
+.mobile .popular-models h2 {
+    margin: 0 0 33px 30px;
+}
+.mobile .popular-models .model{
+	margin: 0 0 70px 46px;
+	width: 40%;
+}
+.is-mobile .popular-models .model:nth-of-type(odd){
+	margin: 0 0 70px 31px;
+}
+
+.is-mobile .choose_tv_banner {
+	display: block;
+	width: 100%;
+	padding-bottom: 40px;
+	text-decoration: none;
+	text-align: center;
+}
+
+.is-mobile .choose_tv_banner img {
+	width: 100%;
+}
+
+.is-mobile .choose_tv_banner h3 {
+	color: #000;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'lg_smartlight' !important;
+    text-transform: none;
+    margin-top: 35px;
+    text-decoration: none;
+}
+
+.is-mobile .choose_tv_banner p {
+	color: #fff;
+    background-color: #c7003f;
+    padding: 15px 50px 15px 50px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 21px;
+    margin-top: 27px;
+    font-family: 'lg_smartregular' !important;
+    display: inline-block;
+
+}
+
+.is-mobile  #survey-popup iframe {
+    height: 100% !important;
+    width: 100%;
+}
+
+.is-mobile .white-popup {
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    line-height: 0;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+    overflow: hidden;
+    z-index: 1000;
+    -webkit-overflow-scrolling: touch;
+    overflow-y: scroll;
+}
+
+.is-mobile .mfp-container {
+    padding: 0 !important;
+}
+
+.is-mobile .mfp-wrap {
+    z-index: 1200 !important;
+    height: 100% !important;
+}
+
+.is-mobile .mfp-close {
+	font-size: 44px;
+}
+
+.is-mobile .footer {
+    height: 117px;
+    margin: 0 0 0 0;
+    padding: 43px 0 0 0;
+}
+.is-mobile .footer .important{
+	font-family: lg_smartbold;
+	font-size: 30px;
+	color: #fff;
+	letter-spacing: 0.3px;
+	vertical-align: middle;
+	text-align: center !important;
+}
+.is-mobile .footer .cat{
+	background: url('../img/cat.png') no-repeat;
+	width: 74px;
+	height: 75px;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 20px 0 14px;
+	background-size: contain;
+}
+.is-mobile .footer .answer{
+	font-family: lg_smartlight;
+	font-size: 22px;
+	color: #fff;
+	vertical-align: middle;
+}
+.is-mobile .footer .notes {
+    width: 380px;
+    display: inline-block !important;
+    vertical-align: middle;
+}
+.is-mobile .footer .container {
+    width: 100%;
+    margin: 0px auto;
+}

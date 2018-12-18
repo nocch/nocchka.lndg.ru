@@ -1,0 +1,1035 @@
+    * {
+    box-sizing: inherit;    
+        
+    }
+/*responsive menu*/
+.main-wrapper-block-new-menu{
+    position: relative;
+    width: 100%;
+    color: #333;
+    font-family: 'lg_smartlight', sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.main-wrapper-block-new-menu *{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.main-wrapper-block-new-menu b{
+    font-family: 'lg_smartsemibold', sans-serif;
+}
+
+.menu-new-mini {
+    position: relative;
+    width: 854px;
+    min-width: 620px;
+    left: -186px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 0;
+    display: flex;
+}
+
+.menu-new-mini__item {
+    display: table-cell;
+    height: 38px;
+    text-align: center;
+    border-right: 1px solid #585858;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'lg_smartlight', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-decoration: none;
+    color: #adadad;
+    background: #333333;
+    padding: 0 10px;
+}
+.menu-new-mini__item:hover{
+    background: #282828;
+    text-decoration: none;
+    color: #adadad;
+    border-bottom:0;
+}
+.menu-new-mini a:active{
+    text-decoration: none;
+    color: #adadad;
+}
+.menu-new-mini a:visited{
+    text-decoration: none;
+    color: #adadad;
+}
+#menu-new-mini__firstitem {
+    border-left: 1px solid #585858;
+    border-right: 0;
+    width: 240px;
+    text-align: left;
+    padding-left: 42px;
+}
+#menu-new-mini__firstitem .menu-new-mini__item-arrow{
+    position: absolute;
+    width: 18px;
+    height: 38px;
+    top:0px;
+    left:234px;
+    z-index: 1;
+    background: url('/ru/technologies/televisions/oledtv/img/menuarrow.png')
+    center center no-repeat;
+}
+#menu-new-mini__firstitem:hover .menu-new-mini__item-arrow{
+    position: absolute;
+    width: 18px;
+    height: 38px;
+    top:0px;
+    left:234px;
+    z-index: 1;
+    background: url('/ru/technologies/televisions/oledtv/img/menuarrowhover.png')
+    center center no-repeat;
+}
+    
+.menu-new-mini__item:hover, .menu-new-mini__item_state_active {
+    border-right-color: #585858;
+}
+
+.icontv {
+    position: absolute;
+    top: 8px;
+    left: 14px;
+    
+    
+    display: block;
+    width: 29px;
+    height: 16px;
+    background: url('/ru/technologies/televisions/oledtv/img/icon-tv.png') center no-repeat;
+}
+.menu-new-mini__logo_oled-4k {
+    width: 170px;
+    height: 50px;
+    background: url('/ru/technologies/televisions/oledtv/img/lg-oled-tv-4k-white.png') center 19px no-repeat;
+   
+}
+
+.menu-new-mini__logo_type_super {
+    width: 226px;
+    height: 50px;
+    background: url('/ru/technologies/televisions/oledtv/img/super-uhd-tv.png') center center no-repeat;
+    
+}
+
+.menu-new-mini__logo-uhd-tv-4k {
+    width: 116px;
+    height: 50px;
+    margin-top: 5px;
+    background: url('/ru/technologies/televisions/oledtv/img/uhd-4k.png') center center no-repeat;
+    
+}
+.menu-new-mini__logo-smart {
+    width: 172px;
+    height: 50px;
+    background: url('/ru/technologies/televisions/oledtv/img/new/smart-tv.png') center center no-repeat;
+   
+}
+.menu-new-mini__logo-hdr {
+    width: 124px;
+    height: 50px;
+    background: url('/ru/technologies/televisions/oledtv/img/new/hdr.png') center center no-repeat;
+
+}
+.menu-new-mini__logo-ips {
+    width: 100px;
+    height: 50px;
+    background: url('/ru/technologies/televisions/oledtv/img/new/ips.png') center center no-repeat; 
+}
+.menu-new-mini__logo-dv3 {
+    width: 114px;
+    height: 50px;
+    background: url('/ru/technologies/televisions/oledtv/img/new/dv3.png') center center no-repeat;
+    
+}
+.menu-new-mini__logo {
+    position: relative;
+    display: inline-block;
+}
+
+.menu-new-mini .menu-new-mini__submenu{
+    position:absolute;
+    width: 515px;
+    height: 144px;
+    margin:0;
+    padding:0;
+    padding-top: 20px;
+    top: 38px;
+    left: 246px;
+    color:#c6c6c6;
+    font-size:18px;
+    list-style:none;
+    visibility:hidden;
+    transition:all .01s ease .01s;
+    background: #282828;
+    z-index: 30;
+}
+
+.menu-new-opensubmenu:hover .menu-new-mini__submenu{visibility:visible;z-index:2;}
+
+.menu-new-mini__submenu-item
+{   display: block;
+    height: 50px;
+    background: #282828;
+    float: left; 
+}
+.menu-new-mini__submenu .menu-new-mini-homelink{
+    opacity: .2;
+}
+.menu-new-mini__submenu-item:hover{
+    background: #333333;
+}
+
+.menu-new-mini__menuinnerimg {
+    width: 144px;
+    height: 38px;
+    background-image: url(/ru/technologies/televisions/oledtv/img/lg-oled-tv-4k-white.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+}
+.menu-new-mini__menuinnerimg:hover {
+    width: 144px;
+    height: 38px;
+    background-image: url(/ru/technologies/televisions/oledtv/img/lg-oled-tv-4k-white.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+    
+}
+.menu-new-mini__menuinnerimg:hover:before, .menu-new-mini__menuinnerimg:hover:after{
+    content: '';
+    position: absolute;
+}
+.menu-new-mini__menuinnerimg:hover:before {
+    position: absolute;
+    top: 0px;
+    left: 300px;
+    width: 70px;
+    height: 38px;
+    z-index: 20;
+    background: linear-gradient(to left, rgba(40, 40, 40, 1) 50%, rgba(0, 0, 0, 0));
+    
+}
+.menu-new-mini__menuinnerimg:hover:after {
+    position: absolute;
+    top: 16px;
+    left: 340px;
+    display: block;
+    width: 11px;
+    height: 6px;
+    z-index: 22;
+    background: url('/ru/technologies/televisions/oledtv/img/menuarrowdown.png') center no-repeat;
+    
+}
+.menu-new-opensubmenu:hover span{
+    position: absolute;
+    top: 16px;
+    left: 360px;
+    display: block;
+    width: 11px;
+    height: 6px;
+    z-index: 22;
+    background: url('/ru/technologies/televisions/oledtv/img/menuarrowup.png') center no-repeat;
+}
+
+.full-section-menu-new-mini{
+    background: #333333;
+    border-top: 1px solid #282828;
+    font-family: 'lg_smartlight', sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;   
+    margin-top: 0px;
+}
+.full-section-menu-mini{
+    display: none !important;
+    visibility: hidden !important;
+    }
+.full-section-menu-new-mini{
+    display: block !important;
+    visibility: visible !important;
+}
+    
+.menu-new-mini__item-arrow{
+        display: block !important;
+        visibility: visible !important;
+}    
+@media (max-width: 1200px){
+    .menu-new-mini {
+    left: 0;
+    }
+} 
+@media (max-width: 1000px){
+    .mobile .full-section-menu-new-mini{
+        display: none !important;
+        visibility: hidden !important;
+    }
+    .mobile .full-section-menu-mini{
+        display: block !important;
+        visibility: visible !important;
+        font-size: 18px;
+        color: #fff;
+    }
+    .mobile .menu-newmini__item{
+        font-size: 18px;
+        color: #fff;
+    }
+    
+    .mobile .menu-newmini__logo_oled-4k-2 {
+    width: 144px;
+    height: 38px;
+
+    }
+    .mobile .menu-mini2__item {
+    border-right: 0;
+    border-bottom: 1px solid #707070;
+    width: 100%;
+    }
+    .mobile .menu-mini2__item {
+    display: inline-block;
+    padding-top: 10px;
+    text-align: center;
+    border-bottom: 2px solid #515151;
+    -webkit-transition: border-color 0.3s ease;
+    transition: border-color 0.3s ease;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+
+    .mobile .menu-mini2 {
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    font-size: 0;
+    display: table;
+    text-align: center;
+    margin: 0 auto;
+    background: #252525;
+    }
+    .mobile .menu-newmini__item, .mobile .menu-newmini__item:hover {
+    display: table-cell;
+    height: 38px;
+    text-align: center;
+    border-right: 1px solid #585858;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'lg_smartlight', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-decoration: none;
+    color: #adadad;
+    background: #333333;
+    }
+    .mobile .menu-newmini__item:hover{
+    background: #252525;
+    text-decoration: none;
+    color: #adadad;
+    border-bottom:0;
+    }   
+
+    .mobile .menu-newmini__item-arrow:hover:before{
+    background: url('/ru/technologies/televisions/oledtv/img/menuarrowhover.png')
+    center center no-repeat;
+    }
+    .mobile .menu-newmini__item:hover, .menu-new-mini__item_state_active {
+        border-right-color: #585858;
+    } 
+    .mobile .menu-new-opensubmenu-mobile {
+    width: 180px;
+    background-image: url(/ru/technologies/televisions/oledtv/img/menuarrowdown.png);
+    background-repeat: no-repeat;
+    background-position: left 20px top 10px; 
+    }
+    .mobile .menu-new-opensubmenu-mobile:hover{
+    width: 180px;
+    background: #333333;
+    background-image: url(/ru/technologies/televisions/oledtv/img/menuarrowup.png);
+    background-repeat: no-repeat;
+    background-position: left 20px top 10px; 
+    }
+    .mobile .submenuopen-active,
+    .mobile .submenuopen-active:hover {
+    background: #282828;
+    background-image: url(/ru/technologies/televisions/oledtv/img/oledup.png);
+    }
+    .mobile .full-section-menu-newmini{
+    border-bottom: 1px solid #515151;
+        
+    }
+    .mobile .menu-newmini__item {
+    height: 38px;
+    padding: 15px;
+    text-align: center;
+    }
+    .mobile .menu-newmini__home{
+    position: absolute;
+    width: 31px;
+    height: 50px;
+    z-index: 400;
+    font-size: 12px;
+    line-height: 36px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px;
+    padding-left: 1px; 
+    color: #adadad;
+    background: url('/ru/technologies/televisions/oledtv/img/arrow-mobile.png')
+    top left no-repeat;
+    font-family: 'lg_smartlight', sans-serif;
+    font-size: 18px; 
+    }
+    
+    
+    
+}
+
+
+.main-wrapper-block-new-menu{
+    position: relative;
+    width: 100%;
+    color: #333;
+    font-family: 'lg_smartlight', sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.main-wrapper-block-new-menu *{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.main-wrapper-block-new-menu b{
+    font-family: 'lg_smartsemibold', sans-serif;
+}
+
+.menu-newmini2 {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    padding-top: 0;
+    display: table;
+}
+
+
+
+.menu-newmini2 a:active{
+    text-decoration: none;
+    color: #adadad;
+}
+.menu-newmini2 a:visited{
+    text-decoration: none;
+    color: #adadad;
+}
+
+    
+ .menu-newmini__logo_oled-4k {
+    width: 170px;
+    height: 50px;
+    background: url('/ru/technologies/televisions/oledtv/img/new/oled-logo.png') center 19px no-repeat;
+   
+}
+
+.menu-newmini__logo_type_super {
+    width: 226px;
+    height: 50px;
+    background: url('/ru/technologies/televisions/oledtv/img/new/lg-suhd-logo.png') center center no-repeat;
+    
+}
+
+.menu-newmini__logo-uhd-tv-4k {
+    width: 116px;
+    height: 50px;
+    margin-top: 5px;
+    background: url('/ru/technologies/televisions/oledtv/img/new/lg-suhd-logo.png') center center no-repeat;
+    
+}
+.menu-newmini__logo-smart {
+    width: 172px;
+    height: 50px;
+    background: url('/ru/technologies/televisions/oledtv/img/new/smart-tv.png') center center no-repeat;
+   
+}
+.menu-newmini__logo-hdr {
+    width: 124px;
+    height: 50px;
+    background: url('/ru/technologies/televisions/oledtv/img/new/hdr.png') center center no-repeat;
+
+}
+.menunewmini__logo-ips {
+    width: 100px;
+    height: 50px;
+    background: url('/ru/technologies/televisions/oledtv/img/new/ips.png') center center no-repeat; 
+}
+.menu-newmini__logo-dv3 {
+    width: 114px;
+    height: 50px;
+    background: url('/ru/technologies/televisions/oledtv/img/new/dv3.png') center center no-repeat;
+    
+}
+.menu-newmini__logo {
+    position: relative;
+    display: inline-block;
+}
+
+.menu-newmini__menuinnerimg {
+    width: 144px;
+    height: 38px;
+    background-image: url(/ru/technologies/televisions/oledtv/img/new/oled-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+}
+.menu-newmini__menuinnerimg:hover {
+    width: 144px;
+    height: 38px;
+    background-image: url(/ru/technologies/televisions/oledtv/img/new/oled-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+    
+}
+.menu-newmini__menuinnerimg:hover:before, .menu-newmini__menuinnerimg:hover:after{
+    content: '';
+    position: absolute;
+}
+.menu-newmini__menuinnerimg:hover:before {
+    position: absolute;
+    top: 0px;
+    left: 320px;
+    width: 70px;
+    height: 38px;
+    z-index: 20;
+    background: linear-gradient(to left, rgba(40, 40, 40, 1) 50%, rgba(0, 0, 0, 0));
+    
+}
+.menu-newmini__menuinnerimg:hover:after {
+    position: absolute;
+    top: 16px;
+    left: 360px;
+    display: block;
+    width: 11px;
+    height: 6px;
+    z-index: 22;
+    background: url('/ru/technologies/televisions/oledtv/img/menuarrowup.png') center no-repeat;
+    
+}
+.menu-new-opensubmenu:hover span{
+    position: absolute;
+    top: 16px;
+    left: 354px;
+    display: block;
+    width: 11px;
+    height: 6px;
+    z-index: 22;
+    background: url('/ru/technologies/televisions/oledtv/img/menuarrowup.png') center no-repeat;
+    
+}
+/*end menu-new*/
+
+.mobilemenu-newmini__submenu, menu-new-mini__home {
+    display: none;
+    visibility: hidden;
+}
+@media (max-width: 1200px){
+    .menu-newmini {
+    left: 0;
+    }
+}    
+   
+.full-section-block{
+    position: relative;
+    width: 100%;
+}
+.full-section-block-beige{
+    background: #f5f5f5;
+}
+.full-section-menu-mini{
+    background: #000;
+    margin-top: 0;
+    display: flex;
+
+}
+.mobile .full-section-menu-mini {
+    position: relative;
+    display: block;
+    }
+.menu-mini {
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: 1px solid #333333;
+}
+
+.menu-mini__home {
+    display: none;
+}
+
+.menu-mini__item {
+    border-right: 0;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+}
+
+.menu-mini__item:hover, .menu-mini__item_state_active {
+    border-right-color: transparent;
+    border-bottom: 2px solid #f1f1f1;
+}
+.menu-mini {
+    position: relative;
+    width: 100%;;
+    border-bottom: 2px solid #ccc;
+    text-align: center;
+    margin: 0 auto;
+    background: #000000;
+    padding-top: 0;
+    display: block;
+}
+
+.menu-mini__item {
+    display: table;
+    height: 57px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.menu-mini__logo_oled-4k {
+    width: 148px;
+    height: 46px;
+    background: url('/ru/technologies/televisions/oledtv/img/new/oled-logo.png') center 19px no-repeat;
+    background-size: 148px 19px;
+}
+.menu-mini__logo {
+    margin:0 auto;
+}
+
+.submenumini-notactive {display: none; visibility: hidden;}
+    /*end responsive menu*/
+.desktop #menu-new-mini__firstitem {
+        width: 246px !important;
+    }
+
+    .menu-mini__logo-home{
+    background: #333333;
+    }
+
+    .container_for_all {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+ .menu-new-mini__home  {
+        position: fixed;
+        width: 25px;
+        height: 40px;
+        background-color: #333333;
+        z-index: 400;
+    } 
+.menu-new-mini__home{
+      font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px;
+    color: #adadad;
+}
+
+
+h4 {
+margin:auto;
+}
+.menu-new-mini__menuinnerimg {
+    width: 144px;
+    height: 38px;
+    background-image: url(/ru/technologies/televisions/oledtv/img/new/oled-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;}
+
+    .full-section-menu-new-mini {
+        height: 40px;
+    }
+.owl-carousel .owl-stage-outer {
+    border-bottom: 1px solid #585858;}
+
+.menu-new-mini__item {font-size: 18px;}
+.item, .menu2-new-mini__item {
+    padding: 14px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    border: 0px !important;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'lg_smartlight', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-decoration: none;
+    color: #adadad;
+    background: none;
+    }
+.disabled {display:none; visibility: hidden;
+}
+.ttt {padding: 16px}
+#shaddow_mini-menu {
+        display:none;
+        position: fixed;
+        width: 200px;
+        height: 46px;
+        background: linear-gradient(to right, rgba(51, 51, 51, 1) 50%, rgba(0, 0, 0, 0));
+        z-index: 300;
+}
+    #arrow-right_mini-menu {
+        position: absolute;
+        z-index: 350;
+        right: 5px;
+        width:18px;
+        height: 50px;
+        background: url(/ru/technologies/televisions/oledtv/img/arrow-right.png) top left no-repeat;
+        display: block;
+        animation: b 3s infinite cubic-bezier(0, 0, 0, 0);
+    }
+@keyframes b {
+    0% {
+        opacity: 1
+    }
+    50% {
+        opacity: 0.4
+    }
+    to {
+        opacity: 1
+    }
+}
+.submenumini-notactive {display: none;}
+
+    /*responsive menu*/
+    .menu2-mini {
+        padding: 0;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border-bottom: 1px solid #333333;
+    }
+
+    .menu2-mini__item {
+        border-right: 0;
+        border-bottom: 1px solid #ccc;
+        width: 100%;
+    }
+
+    .menu2-mini__item:hover, .menu2-mini__item_state_active {
+        border-right-color: transparent;
+        border-bottom: 2px solid #f1f1f1;
+    }
+    .menu2-mini {
+    position: relative;
+    width: 100%;;
+    border-bottom: 2px solid #ccc;
+    text-align: center;
+    margin: 0 auto;
+    background: #000000;
+    padding-top: 0;
+    display: block;
+}
+
+.menu2-mini__item {
+    display: table;
+    height: 57px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.menu-mini__logo_oled-4k {
+    width: 148px;
+    height: 46px;
+    background: url('/ru/technologies/televisions/oledtv/img/new/oled-logo.png') center 19px no-repeat;
+    background-size: 148px 19px;
+}
+.menu2-mini__logo {
+  margin:0 auto;
+}
+
+
+.submenumini-notactive {display: none;}
+    
+    
+.owl-item {
+height: 46px;
+outline: 1px solid #585858;
+background: #333333;
+    text-align: center;
+    display: flex;
+}    
+.owl-item:hover {
+    background: #252525;
+    text-decoration: none;
+    color: #adadad;
+    border-bottom: 0;
+    display: flex;
+    }
+    
+.mobile .menu-mini2__item {
+    height: 58px;
+    padding-top: 3px;}   
+.mobile .menu-new-mini {
+    display: none;
+    visibility: hidden;
+    }
+.mobile .section-hdr .hdr-tv {
+    width: auto !important;}
+    .mobile  .main-header {
+        display: none;
+        visibility: hidden;
+    }
+
+.mobile .menu-new-opensubmenu, .mobile .menu-new-opensubmenu:hover {   
+        width: 100% !important;
+        background: none !important;
+        background-image: url(/ru/technologies/televisions/oledtv/img/ar-down2.png) !important;
+        background-repeat: no-repeat !important;
+        background-position: left 83px top 4px !important;
+        }
+        .menu-new-opensubmenu:hover {
+        background: #282828 !important;
+        background-image: url(/ru/technologies/televisions/oledtv/img/ar-up2.png) !important;
+        background-position: left 83px top 4px;
+        }
+    
+    
+    
+    
+
+        
+    .arrows .counter {
+        color: #4e4e4e;}
+    
+    .mobile .submenuopen-active2,
+    .mobile .submenuopen-active2:hover {
+        background-image: url(/ru/technologies/televisions/oledtv/img/ar-up2.png) !important;
+        background-position: left 83px top 4px !important;
+        }
+        background: #282828;
+    }
+.tablet #menu-new-mini__firstitem {
+    width: 147px !important;
+}
+.tablet #menu-new-mini__firstitem .menu-new-mini__item-arrow, .tablet #menu-new-mini__firstitem .menu-new-mini__item-arrow:hover {
+    left: 145px;}
+    
+.tablet .menu-new-mini .menu-new-mini__submenu, .tablet .menu-new-mini .menu-new-mini__submenu:hover{
+    left: 157px;
+    }
+.tablet .menu-new-mini {
+    width: 768px;
+    left: 0px;
+    }
+.mob-menu {
+    display: none !important;
+        
+    }
+.right-menu {
+    width: 27.3125rem !important;}
+
+/*.mobile #arrow-right_mini-menu {
+    right: -280px;}*/
+
+.mobile #full-section-fake .menu-new-mini__submenu-item {
+    position: relative;}
+    
+.mobile #full-section-fake .menu-new-mini__submenu-item {
+    display: table;
+    width: 100%;
+    height: 57px;
+    text-align: center;
+    box-sizing: border-box;}
+    
+.desktop .menu-new-opensubmenu {   
+width: 180px !important;
+background-image: url(/ru/technologies/televisions/oledtv/img/ar-down2.png);
+background-repeat: no-repeat !important;
+background-position: left top;
+}
+.tablet .menu-new-opensubmenu {
+ width: 290px !important;
+background-image: url(/ru/technologies/televisions/oledtv/img/ar-down2.png);
+background-repeat: no-repeat !important;
+background-position: left top;       
+}    
+   
+    
+.desktop .menu-new-opensubmenu:hover, .tablet .menu-new-opensubmenu:hover{
+background: #282828;
+background-image: url(/ru/technologies/televisions/oledtv/img/ar-up2.png);}
+
+.tablet .logo {
+        margin-left: 10px;}
+    
+.tablet .main-menu {
+    margin-right: 20px;}
+    
+.middle-menu {
+    float: right;
+    margin-right: 20px;}
+    /*.mobile.portrait*/    
+    
+    
+    .mobile.portrait .submenuopen-active2, .mobile.portrait .submenuopen-active2:hover {
+        background-position: left 100px top 20px !important;    }
+    
+   .mobile.portrait .menu-newmini__home {
+    position: absolute;
+    top: -15px;
+    width: 52px;
+    height: 100px;
+    z-index: 2;
+    font-size: 12px;
+    line-height: 105px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0px;
+    padding-right: 10px;
+    color: #adadad;
+    background-image: url(/ru/technologies/televisions/oledtv/img/arrow-mobile.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    /* background: url(/ru/technologies/televisions/oledtv/img/arrow-mobile.png) top left no-repeat; */
+    font-family: 'lg_smartlight', sans-serif;
+    font-size: 30px;}
+    
+    .mobile.portrait .full-section-menu-mini {
+    height: 74px;}
+    
+    .mobile.portrait .owl-item {
+    height: 72px;}
+    
+.mobile.portrait .item, .mobile.portrait .menu2-new-mini__item {
+    font-size: 30px;
+    padding: 20px;
+}
+    
+    
+    
+.mobile.portrait .menu-new-mini__logo_oled-4k {
+    margin-top: 18px;
+    width: 230px;
+    height: 80px;
+    background-size: 100%;
+    background-image: url(/ru/technologies/televisions/oledtv/img/new/oled-logo.png);
+    background-repeat: no-repeat;
+    background-position: center 19px;
+}
+  
+    
+.mobile.portrait .menu-new-mini__logo_type_super {
+    margin-top: 12px;
+    width: 326px;
+    height: 80px;
+    background-image: url(/ru/technologies/televisions/oledtv/img/new/lg-super-uhd-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.mobile.portrait .menu-new-mini__logo-uhd-tv-4k {
+    width: 150px;
+    height: 80px;
+    margin-top: 10px;
+    background-image: url(/ru/technologies/televisions/oledtv/img/new/lg-super-uhd-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+    
+.mobile.portrait .menu-new-mini__logo-smart {
+    width: 232px;
+    height: 80px;
+    background-image: url(/ru/technologies/televisions/oledtv/img/new/smart-tv-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    margin-top: 7px;
+}
+.mobile.portrait .menu-new-mini__logo-hdr {
+    width: 130px;
+    margin-top: 9px;
+    height: 80px;
+    background-image: url(/ru/technologies/televisions/oledtv/img/new/hdr.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.mobile.portrait .menu-new-mini__logo-ips {
+    width: 100px;
+    margin-top: 7px;
+    height: 80px;
+    background-image: url(/ru/technologies/televisions/oledtv/img/new/ips.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.mobile.portrait .menu-new-mini__logo-dv3 {
+    width: 114px;
+    margin-top: 7px;
+    height: 80px;
+    background-image: url(/ru/technologies/televisions/oledtv/img/new/dv3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}  
+    
+    .mobile.portrait #full-section-fake .menu-new-mini__submenu-item {
+        height: 100px;
+        border-bottom: 1px solid #585858;
+    }   
+.mobile.portrait #arrow-right_mini-menu {
+    position: absolute;
+    top: 0px;
+    z-index: 350;
+    right: 0px;
+    width: 29px;
+    height: 102px;
+    background-image: url(/ru/technologies/televisions/oledtv/img/arrow-right.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: block;
+    animation: b 3s infinite cubic-bezier(0, 0, 0, 0);
+    }
+    
+   .mobile.portrait #shaddow_mini-menu {
+            height: 70px;
+    }
+    
+    .mobile.portrait .menu-new-opensubmenu, .mobile.portrait .menu-new-opensubmenu:hover {
+    background-position: left 100px top 18px !important;   
+    }
+    
+    .item, .item:hover, .item:active, .item:visited, .menu2-new-mini__item {
+    text-decoration: none;
+    color: #adadad;
+}

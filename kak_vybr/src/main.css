@@ -1,0 +1,1048 @@
+
+.mobile a {
+    display: table;
+}
+    .mobile a.menu_owl_img {
+    margin: 0 auto;
+}
+.mobile .menu-new-mini__submenu-item {
+    border-bottom: 1px solid #585858}
+.mobile .menu-new-mini__submenu-item a {
+    margin: auto;
+}
+.mobile .menu-new-mini__submenu .menu-new-mini__submenu-item {
+    border-bottom: 1px solid #585858}
+.mobile .menu-new-mini__submenu .menu-new-mini__submenu-item a {
+    margin: auto;
+}
+.mobile.portrait .menu-newmini__home {
+    top: 0px;
+    height: 74px;
+    line-height: 76px;}
+
+.mobile .large-4 .owl-carousel {
+   display: block;
+ }
+ .mobile .menu-new-mini__logo_oled-4k,
+ .mobile .menu-new-mini__logo-dv3,
+ .mobile .menu-new-mini__logo-smart,
+ .mobile .menu-new-mini__logo-hdr,
+ .mobile .menu-new-mini__logo-ips {
+    margin: 7px auto 0;
+}
+.mobile #openopen {
+    height: 74px;
+    background-color: #333 !important;
+}
+.mobile .menu-new-mini__submenu-item a {
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+    color: #ADADAD;
+    font-size: 22px;
+    text-decoration: none;
+    font-family: lg_smartregular;
+}
+.main-header {
+    -webkit-font-smoothing: antialiased;
+}
+
+a.menu-new-mini__item.mini-childblock3 {
+    background: #282828;
+}
+.middle-line a {
+    color: #fff !important;
+    text-decoration: none !important;
+}
+.middle-line a:hover {
+    text-decoration: underline !important;
+}
+@media screen and (max-width: 1200px) {
+    .middle-line .container-wrap ol {
+    display: none;
+    }
+}
+@media screen and (min-width: 1201px) {
+    .middle-line .container-wrap ol {
+        display: block;
+    }
+
+    .middle-line .container-wrap ol {
+        float: left;
+        margin: 0;
+        padding-left: 0;
+    }
+
+
+    .middle-line .container-wrap ol li {
+        display: inline-block;
+        font-size: 14px;
+        padding-top: 10px;
+        line-height: 20px;
+        color: #fff;
+    }
+    .middle-line .container-wrap ol li, .middle-line .container-wrap ol p, .middle-line .container-wrap ol p a, .middle-line .container-wrap ol p a span {
+        font-family: 'lg_smartregular',Tahoma,Arial,sans-serif;
+        color: #fff;
+    }
+}
+    .is-mobile .submenuopen-active2{
+        background-position: 65px 5px !important;
+        background-image: url(/ru/technologies/televisions/oledtv/img/ar-up2.png) !important;
+        background-repeat: no-repeat !important;
+    }
+
+    .is-mobile .menu-new-opensubmenu-mobile, 
+    .tablet .menu-new-opensubmenu-mobile {
+        background-image: url(/ru/technologies/televisions/oledtv/img/ar-down2.png) !important;
+        background-position: 65px 5px !important;
+        background-repeat: no-repeat !important;
+        
+    }
+    #menu-new-mini__firstitem:hover,
+    #menu-new-mini__firstitem {
+        width: 246px;
+    }
+    .menu-new-mini__item{
+        padding: 0 15px;
+    }
+        .img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+} 
+    html {
+        font-size: 18px;}
+    
+
+.padtop-b-2 {
+    padding-top: 24px;
+}
+.padtop50 {
+     padding-top: 50px;        
+        }
+h2.lg_centr, p.lg_centr {
+    text-align: center;
+}
+h2.lg_centr {
+    text-align: center;
+    font-family: "LG Smart";
+    font-weight: 600;
+}
+        p{
+            font-family: 'lg_smartregular', sans-serif;
+-webkit-font-smoothing: antialiased;
+        }
+        h2 {
+    font-size: 3rem;
+    padding-bottom: 0.8rem;
+    margin-bottom: .8rem;
+    position: relative;
+    color: #000;
+    line-height: 1;
+    margin-top: 1rem;
+}
+.desk {
+    margin-top: 60px;}
+.section-2 .table-small .row-small:nth-child(2n+1) {
+    background: #fff;
+}  
+.section-2 .table-small .row-small:nth-child(2n) {
+    background: #f9f9f9;
+}
+.slider-height-cont.slider {
+    display: none;
+}
+.block-1-htch-txt h2 {
+font-family: lg_smartbold;
+}
+.section-2 .table-small .row-small.bold .c-1, .section-2 .table-small .row-small.bold .c-2 {
+    border: 0px solid #EFF0ED;}
+    
+          .section-2 .slider-diag-cont::after {content: '';background: url('/ru/televisions/kak-vybrat/img/diag.png?v=3') no-repeat; -webkit-background-size: contain;background-size: contain;height: 2.825em;position: absolute;top: 50%;left: 0;width: 5rem;}
+
+          .section-2 .slider-width-cont::after {content: '';background: url('/ru/televisions/kak-vybrat/img/diag2.png') no-repeat;-webkit-background-size: contain;background-size: contain;height: 2.825em;position: absolute;top: 50%;left: 0;width: 5rem;}
+.section-2 .slider-from-cont::after {
+    content: '';
+    background: url('/ru/televisions/kak-vybrat/img/diag3.png') no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+    height: 2.825em;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 5rem;
+}
+        .section-2 .tv-calc .info {
+    float: left;
+    font-family: lg_smartregular;
+    font-size: 1.2rem;
+    color: #000;
+    font-weight: bold;
+    margin: -2.6125rem 0 0 0;
+}
+.section-2 .tv-calc .counter {
+    float: right;
+    color: #000;
+    font-family: lg_smartregular;
+    font-size: 1.2rem;
+    margin: -2.575rem 0 0 0;
+}
+.section-3 .tv-4k-container {
+    background: url('/ru/televisions/kak-vybrat/img/honey5.png') no-repeat center center;
+    background-size: contain;
+    width: 35rem;
+    height: 24.625rem;
+    float: right;
+    margin-top: 2rem;
+}
+.section-bullets li, 
+.section-bullets > * {
+      display:none; }
+        
+.wrap p {
+
+font-size: 20px;
+    line-height: 1.3;
+    color: #000;
+}
+
+.video > .video-frame {
+    width: 52rem;
+    height: 32rem;
+    position: absolute;
+    display: block;
+    top: 5.3rem;
+    left: 50%;}
+.desk.desk1 {margin-top:0;}
+        
+        
+.mouse-hover-lg 
+.mouse-hover-lg {
+  opacity:.9;
+}
+
+.trigger-mouse-hover2-lg
+{color:transparent;}
+.mouse-hover-lg >.trigger-mouse-hover2-lg, .mouse-hover-lg >.trigger-mouse-hover-lg {
+  transition: all .6s ease .25s;
+}
+.mouse-hover-lg:hover > .trigger-mouse-hover-lg {
+  display:block;
+    -webkit-transform: translateY(-60px);
+    transform: translateY(-60px);
+    transition: all .6s ease .25s;
+}
+.mouse-hover-lg:hover > .trigger-mouse-hover2-lg{
+  display:block;
+    color: #fff;
+    transition: all .6s ease .25s;
+}
+.img-responsive2 {
+    display: block;
+    width: auto;
+    height: auto;
+} 
+.block-1-htch-txt {
+    position: absolute;
+   top: 760px;
+    left: 0;
+    right: 0;
+}
+.trigger-mouse-hover2-lg.tx-oled {
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.3;}
+@media screen and (max-width:767px){.hidden-xs{display:none !important}}@media screen and (min-width:768px) and (max-width:991px){.hidden-sm{display:none !important}}@media screen and (min-width:992px) and (max-width:1199px){.hidden-md{display:none !important}}@media screen and (min-width:1200px){.hidden-lg{display:none !important}}
+   
+
+.button-pre-footer {
+    border: 1px solid #333;
+    text-align: center;
+    padding: 5px;
+    color: #000;
+    position: absolute;
+    bottom: 12px;
+    right: 24px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+}
+        .button-pre-footer:hover {
+            color:#fff;
+            background: #000;
+        }
+.pre-footer {
+    background: #f1f1f1;
+    border: 1px solid #ccc;
+    font-family: "LG Smart Bold";
+    font-size: 20px;
+}
+.pre-footer p {
+    position: absolute;
+}
+.pre-footer1 
+{
+    padding-bottom: 60px;
+}
+.pre-footer1 p
+{
+    bottom: 18px;
+    left: 36px;
+}
+.pre-footer2 {
+    padding-bottom: 60px;
+    margin-top: 20px;
+}
+.pre-footer2 p
+{
+    bottom: 18px;
+    left: 36px;
+}
+.pre-footer3 {
+    padding-bottom: 144px;
+}
+.pre-footer4 {
+    padding-bottom: 144px;
+}
+.pre-footer3 p {
+     bottom: 62px;
+    left: 60px;
+}
+.pre-footer4 p {
+     bottom: 62px;
+    left: 60px;
+}
+    
+.pre-footer3 .button-pre-footer, .pre-footer4 .button-pre-footer {
+    right: 20%;
+}
+.nopadding {
+    margin: 0!important;
+    padding: 0!important;
+}
+
+.button-pre-footer {
+    border: 1px solid #333;
+    text-align: center;
+    padding: 5px;
+    color: #000;
+    position: absolute;
+    bottom: 12px;
+    right: 22px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+    .pad50 {
+    margin-top: 50px;
+}
+.pad-b50 {
+    margin-bottom: 50px;
+}
+.row .img-title {
+    font-size: 1.375rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.pad-l70 {
+padding-left:70px}
+.pad-l110{
+padding-left:110px}
+.pad-r70{
+padding-right:70px
+}
+.margin-d {
+padding-left: 70px; 
+padding-right: 70px; 
+}
+.margin-d.margin-d-sp {
+padding-left: 100px;
+}
+.video1.oled-video {
+    padding: 70px;
+    padding-left: 150px;
+    padding-right: 150px;
+} 
+@media screen and (max-width: 1450px) {
+    .block-1-htch-txt {
+    position: absolute;
+top: 760px;
+    }
+        }   
+@media screen and (max-width: 1200px) {
+    .block-1-htch-txt {
+   position: absolute;
+    top: 760px;
+    }
+}
+@media screen and (max-width: 1072px) {
+        .block-1-htch-txt {
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin-bottom: 10%;
+    }    
+}
+@media screen and (max-width: 991px) {
+
+    .mobilpad15 {
+    margin-top: 15px;
+    }
+    p.lg_centr.mob {
+    text-align: center;
+    padding-right: 15px;
+        padding-left: 15px;}
+    .video1.oled-video {
+    padding: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 0px;
+}
+    .table-small .row-small .c-1, .section-2 .table-small .row-small .c-2, .section-2 .table-small .row-small.bold .c-1, .section-2 .table-small .row-small.bold .c-2 {
+        font-size: 0.9rem!important;}
+
+    .img-responsive.img543 {
+    padding-left: 30px;
+}
+    .pad-l70 {
+    padding-left:15px}
+    .pad-l110{
+    padding-left:0px}
+    .pad-r70{
+    padding-right:15px;
+    }
+.video-wrapper {
+    padding-top: 15px;
+}
+    .margin-d.margin-d-sp {
+    padding-left: 70px; 
+    }
+     .pre-footer1 .button-pre-footer  , .pre-footer2 .button-pre-footer {
+    right: 24px;
+    bottom: 12px;
+      padding-left:15px;
+     padding-right:15px;
+    }  
+    .pre-footer3 .button-pre-footer  , .pre-footer4 .button-pre-footer {
+    right: inherit;
+    left: 24px;
+    padding-left:15px; padding-right:15px;
+    }
+    .pre-footer1 p , .pre-footer2 p {
+        left: 24px; bottom: 10px; 
+        font-size: 18px;
+        width: 40%;
+        font-family: lg_smartbold;
+         bottom: 8px;
+        }
+        .pre-footer3 p , .pre-footer4 p {
+        font-family: lg_smartbold;
+        bottom: 55px;
+        font-size: 18px;
+    }
+        .block-1-htch-txt {
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin-bottom: 10%;
+    }    
+    .block-2-htch-4{
+    margin-top: 8.2%;}
+    .block-2-htch-2 {
+    margin-top: 8.2%;
+    }
+     .row .img-title {
+    font-size: 2rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    }   
+    .block-1-htch-txt {
+    background: linear-gradient(to top, #fff, #eaeaea);
+    padding: 10px;
+    }
+    .lastblocks.pad50 {
+    margin-bottom: 15px;
+    margin-top: 0px;
+    }
+    .pre-footer3 p , .pre-footer4 p {
+    left: 10px!important;
+    margin-left: 10%;
+    margin-right: 0%;
+    bottom: 55px;
+    font-size: 14px;
+    width: 40%;
+    font-family: lg_smartbold;
+    }
+    .lastblocks-left.col-sm-6.col-xs-6 {
+       padding-right: 8px;
+    }
+    .lastblocks-right.col-sm-6.col-xs-6 {
+       padding-left: 8px;
+    }
+       
+}
+    
+    @media screen and (max-width: 670px) {
+    .section-2 .tv-image {
+    height: 15rem!important;}
+    h2 {
+        font-size: 2rem;}
+    .lg_centr.pad-mob15 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+        .section-2 .tv-calc .info {
+    float: left;
+    font-family: lg_smartregular;
+    font-size: 0.7rem;
+    color: #000;
+    font-weight: bold;
+    margin: -2.4rem 0 0 0;
+}
+    .margin-d {padding-left: 15px;
+    padding-right: 15px;}
+        
+   .margin-d.margin-d-sp {
+    padding-left: 0px; 
+    }
+        .pre-footer {
+    font-size: 12px;
+}
+     .pre-footer1  .button-pre-footer, .pre-footer2 .button-pre-footer   {
+    margin-right: 24px;
+    bottom: 12px;
+    }  
+        .pre-footer3 .button-pre-footer, .pre-footer4 .button-pre-footer {
+        font-size: 14px;
+        }   
+.section-2 .tv-calc .slider-from-cont .info, .section-2 .tv-calc .info {
+      font-size: 0.7rem;
+}
+.section-2 .tv-calc .counter {
+    float: right;
+    color: #000;
+    font-family: lg_smartregular;
+    font-size: 0.8rem;
+    margin: -1.275rem 0 0 0;
+}
+        .pre-footer1 p , .pre-footer2 p{
+        left: 0 !important;
+        margin-left: 10%;
+        margin-right: 0%;
+        bottom: 8px;
+        font-size: 14px;
+        width: 40%;
+        font-family: lg_smartbold;
+        }
+        .pre-footer3 p , .pre-footer4 p {
+        left: 10px!important;
+        margin-left: 10%;
+        margin-right: 0%;
+        bottom: 55px;
+        font-size: 14px;
+        width: 40%;
+        font-family: lg_smartbold;
+
+        }
+        .pre-footer1 , .pre-footer2 {
+            padding-bottom: 60px;
+        }
+        .pre-footer3 , .pre-footer4 {
+            padding-bottom: 120px;
+        }
+        
+        
+        
+    }
+.btn-group-vertical > .btn-group::after, .btn-toolbar::after, .clearfix::after, .container-fluid::after, .container::after, .dl-horizontal dd::after, .form-horizontal .form-group::after, .modal-footer::after, .nav::after, .navbar-collapse::after, .navbar-header::after, .navbar::after, .pager::after, .panel-body::after, .row::after {
+    clear: both;
+}
+.btn-group-vertical > .btn-group::after, .btn-group-vertical > .btn-group::before, .btn-toolbar::after, .btn-toolbar::before, .clearfix::after, .clearfix::before, .container-fluid::after, .container-fluid::before, .container::after, .container::before, .dl-horizontal dd::after, .dl-horizontal dd::before, .form-horizontal .form-group::after, .form-horizontal .form-group::before, .modal-footer::after, .modal-footer::before, .nav::after, .nav::before, .navbar-collapse::after, .navbar-collapse::before, .navbar-header::after, .navbar-header::before, .navbar::after, .navbar::before, .pager::after, .pager::before, .panel-body::after, .panel-body::before, .row::after, .row::before {
+    display: table;
+    content: " ";
+}
+
+.wrap {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.footer .container {
+    width: 100%;
+    margin: 0rem auto;
+}
+        
+.footer .cat {
+    background: url('/ru/technologies/televisions/smarttv/img/footer-icon.png') no-repeat;
+    background-size: contain;
+    width: 4.625rem;
+    height: 4.6875rem;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 1.25rem 0 0.875rem;
+}
+        
+.desk {
+    margin-top: 0px;}
+
+        
+a.movieClose.hdr_mv1Close {
+    position: absolute;
+    right: 0;
+}
+a.movieClose.sound_mv1Close {
+    position: absolute;
+    right: 0;
+}
+a.movieClose.dolby_mv1Close {
+    position: absolute;
+    right: 0;
+}
+a.movieClose.dolby_oledClose {
+    position: absolute;
+    right: 0;
+}
+.movieClose {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 10020 !important;
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+.video-wrapper {
+display: block;
+position:relative;
+width: 100%;
+height: auto;}
+a.red-c-link, a.red-c-link:hover {
+    text-decoration: none;
+    color: #a50034;
+}
+a.red-c-link:hover {
+    opacity: 0.7;
+}
+.section-2 .right-tv-text {
+    margin-right: 2rem!important;}
+.section-2 .link-tv.hover-spec {
+            font-size: 1rem!important;}
+.video1 img {
+    margin: auto;
+    width: 100%;
+    height: auto;
+    display: block;}
+.section-2 .tv-image {
+    width: 120%;}
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+.row.row2 {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+h2:after {
+    opacity: 0!important;}
+.st77 {display:block; width:100%;height:100%; position:relative;}
+.st772 {position:absolute; z-index:500; bottom:54px; left:14%; display:block;}
+.st773 {position:absolute; z-index:500; bottom:90px; left:12%; display:block;}
+.st774 {position:absolute;left:110px; bottom:-5px;}
+.st775 {display:block; width:100%;height:100%; position:relative;}
+.st776 {position:absolute; z-index:500; top: 38%; left:35%; display:block;}
+.st777 {position:absolute;left:110px; bottom:-5px;}
+st778 {display:block; width:100%;height:100%; position:relative;}
+.st779 {position:absolute; z-index:500; top: 38%; left:16%; display:block;}
+.st781 {position:absolute;left:122px; bottom:25px;color:#fff;}
+.st780 {position:absolute; z-index:500; top: 38%; left:16%; display:block;}
+.st782 {font-size:26px; text-align:center;}
+.st783 {position:absolute;left:295px; bottom:25px;color:#fff;}
+.st784 {display:block; width:100%;height:100%; position:relative;}
+.st786 {position:absolute;left:110px; bottom:-5px;}
+.st787 {position:absolute; z-index:500; top: 35%; left:30%; display:block;}
+.st788 {position:absolute; z-index:500; top: 38%; left:20%; display:block;}
+.s789 {position:absolute;left:110px; bottom:-5px;}
+.st790 {position:absolute;left:122px; bottom:25px;color:#fff;}  
+.st799 {position:absolute; z-index:500; top: 38%; left:21%; display:block;}
+        .st789 {
+    position: absolute;
+    left: 110px;
+    bottom: -5px;
+}
+.img-title {
+    text-align: center;}
+#frame1, #frame2, #frame3, #frame4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+ #frame1,  #frame2, #frame3, #frame14 { 
+    transition: all 1.25s cubic-bezier(0.23, 1, 0.32, 1);}
+   .oled_mv1layer { 
+    transition: all 1.25s cubic-bezier(0.23, 1, 0.32, 1);}
+.is-mobile .footer .cat {
+    background: url('/ru/technologies/televisions/smarttv/img/footer-icon.png') no-repeat;
+    width: 74px;
+    height: 75px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 20px 0 14px;
+    background-size: contain;
+}
+       
+
+
+/**
+ * modal window
+ */
+* {
+  box-sizing: border-box;
+}
+
+
+
+.modal {
+  will-change: visibility, opacity;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  z-index: 1000;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  -webkit-transition-delay: $modal-delay;
+  transition-delay: $modal-delay;
+}
+
+.modal--active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.modal--align-top {
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.modal__bg {
+  background: transparent;
+}
+
+.modal__dialog {
+  max-width: 100%;
+  width: 100%;
+  opacity: 1;
+  padding: 0;
+}
+
+.modal__content {
+  will-change: transform, opacity;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  padding: 0.4rem;
+  background: #000;
+  background-clip: padding-box;
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  -webkit-transition: all 0.25s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: all 0.25s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.modal__content--active {
+  opacity: 1;
+}
+
+.modal__close {
+  z-index: 1100;
+  cursor: pointer;
+}
+
+.modal__trigger {
+  position: relative;
+  display: inline-block;
+  /*padding: 1.2rem 2.4rem;*/
+  color: rgba(0, 0, 0, 0.7);
+  line-height: 1;
+  cursor: pointer;
+  background: #000;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.modal__trigger--active {
+  z-index: 10;
+}
+
+
+#modal__temp {
+  will-change: transform, opacity;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #000;
+  -webkit-transform: none;
+  transform: none;
+  opacity: 1;
+  -webkit-transition: opacity 0.1s ease-out, -webkit-transform 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: opacity 0.1s ease-out, -webkit-transform 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: opacity 0.1s ease-out, transform 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: opacity 0.1s ease-out, transform 0.5s cubic-bezier(0.23, 1, 0.32, 1), -webkit-transform 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+
+
+body {
+  height: 100vh;
+
+}
+
+
+
+.demo-btns header {
+  padding: 7vh 10vw;
+  background: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.demo-btns header h1 {
+  margin: 0;
+  color: rgba(0, 0, 0, 0.54);
+  font-weight: 300;
+}
+
+.demo-btns .info {
+  background: #f44336;
+  padding: 3vh 10vw;
+  height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-flow: column wrap;
+  flex-flow: column wrap;
+}
+
+.demo-btns p {
+  text-align: center;
+  color: #fff;
+}
+
+.demo-btns .link {
+  font-size: 20px;
+}
+
+.demo-btns .modal__trigger {
+  margin-right: 3px;
+}
+
+.demo-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 1.2rem;
+  padding: 0.6rem;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  -webkit-transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.demo-close svg {
+  width: 24px;
+  fill: #fff;
+  pointer-events: none;
+  vertical-align: top;
+}
+
+.demo-close:hover {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.container574 {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+
+.video574 {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 50vw;
+  border-width: 0px!important;
+   position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  
+}
+
+        
+        
+/**
+ * end modal window
+ */
+
+.container_for_all {
+    width:100%;
+    margin: 0 auto;
+    
+}
+body {
+    overflow-x:hidden;
+}
+.container_for_all {
+    overflow: visible!important;
+}
+
+.is-mobile .menu-new-opensubmenu-mobile, .tablet .menu-new-opensubmenu-mobile {
+    background-position: 15vw 5px !important;}        
+        
+        @media screen and (max-width: 610px) {
+.is-mobile .menu-new-opensubmenu-mobile, .tablet .menu-new-opensubmenu-mobile {
+    background-position: 10vw 5px !important;}             
+        }
+        @media screen and (max-width: 530px) {
+.is-mobile .menu-new-opensubmenu-mobile, .tablet .menu-new-opensubmenu-mobile {
+    background-position: 5vw 5px !important;}             
+        }       
+                @media screen and (max-width: 460px) {
+.is-mobile .menu-new-opensubmenu-mobile, .tablet .menu-new-opensubmenu-mobile {
+    background-position: -15vw 5px !important;}             
+        }   
+            @media screen and (max-width: 350px) {
+.is-mobile .menu-new-opensubmenu-mobile, .tablet .menu-new-opensubmenu-mobile {
+    background-position: -25vw 5px !important;}             
+        } 
+    .htch430 {position: relative;width: 1px;height: 842px;margin: 0 auto;}
+    .htch431  {position: absolute;top: 0;width: 1600px;height: 842px;margin: 0 auto;left: 50%;transform: translateX(-50%);}
+    .htch432  {position:absolute;left:122px; bottom:25px;color:#fff;}
+    .htch433 {position: absolute;top: 0;width: 1600px;height: 673px;margin: 0 auto;left: 50%;transform: translateX(-50%);}
+    .htch434 {position: relative;width: 1px;height: 673px;margin: 0 auto;}
+.htch335 {font-family: lg_smartbold;}
+.htch336 {font-size: 26px;}
+.htch435  {position: relative;width: 1px;height: 557px;margin: 0 auto;}
+.htch436 {position: absolute;top: 0;width: 1600px;height: 557px;margin: 0 auto;left: 50%;transform: translateX(-50%);}
+.htch437 {font-family: lg_smartbold;}
+.htch338 {font-size: 26px!important;}
+.htch438 {position: relative;width: 1px;height: 555px;margin: 0 auto;}
+.htch439 {position: absolute;top: 0;width: 1600px;height: 555px;margin: 0 auto;left: 50%;transform: translateX(-50%);}
+.htch440 {font-family: lg_smartbold; font-size: 56px;}
+.htch441 {position: relative; width: 1px;height: 557px;margin: 0 auto;}
+.htch442 {position: absolute;top: 0;width: 1600px;height: 557px;margin: 0 auto;left: 50%;transform: translateX(-50%);}
+.htch443 {width: 925px;}
+.htch444 {font-family: lg_smartbold;}
+.htch445{font-size: 26px;}
+.htch447 {transform: none;}
+.htch448 {width:93.5%}
+.htch449 {text-align: right; font-size: 25px;}     
+.htch450 {text-align: right; font-size: 21px;}
+.center_oled {
+    max-width: 1600px;
+    margin: 0 auto;
+    width: 100%;
+}
+.menu-new-mini__item.menu-new-opensubmenu, .menu-new-mini__item.menu-new-opensubmenu:hover {
+    padding: 0 10px 0 20px;
+}
+.video574 {
+    position: absolute!important;
+    top: 50vh;}
+    h2.lg_centr.first-t {
+      font-size: 5.1rem;  
+    }
+    .lg_centr.desk.first-p {
+        font-size: 1.5rem!important;
+    }
+.htch430 {
+    height: 1092px;
+}
+.htch431 {
+    height: 1092px;}
+.block-1-htch-txt {
+    top: 860px;}
+.lg_centr.tend
+{ margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 4rem;
+    }
+@media screen and (min-width: 1600px) {
+        h2.lg_centr.first-t {
+        font-size: 92px;
+    }
+            .lg_centr.desk.first-p {
+        font-size: 28px!important;
+    }
+    .lg_centr.tend
+{ margin-top: 40px;
+margin-bottom: 40px;
+    font-size: 66px;
+    }
+}
+    @media screen and (max-width: 1072px) {
+       .block-1-htch-txt {
+        position: absolute;
+    }
+    }
+    @media screen and (max-width: 991px) {
+       .block-1-htch-txt {
+        position: absolute;
+    }
+    }
+@media screen and (max-width: 830px) { 
+    .block-1-htch-txt {
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin-bottom: 10%;
+    }
+}
+.menu-new-opensubmenu, .menu-new-opensubmenu:hover {
+    background-image: url(/ru/technologies/televisions/oledtv/img/ar-down2.png) !important;}
+.menu-new-opensubmenu.submenuopen-active2, .menu-new-opensubmenu.submenuopen-active2:hover {
+    background-image: url(/ru/technologies/televisions/oledtv/img/ar-up2.png) !important;}    
+    
+.is-mobile .menu-new-opensubmenu-mobile, .is-mobile .menu-new-opensubmenu-mobile:hover {
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+
+}

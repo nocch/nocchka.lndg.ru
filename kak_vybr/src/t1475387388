@@ -1,0 +1,97 @@
+(function () {
+    if(true){
+    var d_i = document.createElement("img");
+    d_i.style.cssText="width:1px !important; height:1px !important; display:none !important;";
+    d_i.setAttribute("alt","");
+    d_i.setAttribute("src","//counter.yadro.ru/id127/refocus-id.gif");
+    var s = document.body;
+    s.appendChild(d_i);}
+})();
+
+//file:content/zp_lg.zp
+
+
+
+(function() {
+	var ra = document.createElement('script');
+	ra.type = 'text/javascript';
+	ra.async = true;
+	ra.src = (('https:' == document.location.protocol ? 'https:' : 'http:')+'//www.googletagmanager.com/gtag/js?id=AW-815347838');
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(ra, s);
+})();
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'AW-815347838');
+
+
+
+
+
+if (typeof __GetI === "undefined") {
+__GetI = [];
+}
+(function () {
+var p = {
+type: "VIEW",
+/* config START */
+site_id: "3685",
+product_id: "",
+product_price: "",
+category_id: "",
+pixel_id: ""
+/* config END */
+};
+__GetI.push(p);
+var domain = (typeof __GetI_domain) == "undefined" ? "px.adhigh.net" : __GetI_domain;
+var src = ('https:' == document.location.protocol ? 'https://' : 'http://') + domain + '/p.js';
+var script = document.createElement( 'script' );
+script.type = 'text/javascript';
+script.src = src;
+var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(script, s);
+})();
+
+
+
+
+(function (w, d, n, u, s) {
+w[n]=w[n]||function(){(w[n].q=w[n].q||[]).push(arguments)};
+var a=d.createElement(s),m=d.getElementsByTagName(s)[0];
+a.async=true;a.src=u;m.parentNode.insertBefore(a,m)
+})(window, document, 'DSPCounter', '//tags.soloway.ru/DSPCounter.js', 'script');
+
+DSPCounter('send', {
+  'sid'     : '219291',
+  'user_id' : ''
+});
+
+
+
+(function(w, d) {
+var n = d.getElementsByTagName("script")[0],
+    s = d.createElement("script");
+
+w.ADSPEND = {
+    onReady: function(e, p, y) {
+        var i = setInterval(function() {
+            if (this.r !== null) return;
+            clearInterval(i);
+            if (typeof this[e] === 'function') this[e](p,y);
+        }.bind(this), 250);
+    }
+}
+
+s.addEventListener('load', function(){
+    w.ADSPEND.r = null;
+});
+
+s.async = true;
+s.src = "//cdn.rtb.com.ru/as-main.js";
+n.parentNode.insertBefore(s, n);
+})(window, document);
+
+ADSPEND.onReady('retargeting', '5a9512389ff80756dfe8abb8')

@@ -1,0 +1,2 @@
+// Adluxe DMP
+!function(){"use strict";var n=window,t=(n.document,1),e=2,i=3,o={},a=new Date/1,r=n.location.href,c=function(n){var t=new Date/1;(new Image).src="https://dmp.webturn.ru/lg.gif?tc="+t+"&ti="+(t-a)+(n?"&e="+n:""),n in o&&setTimeout(function(){for(var t in o[n])o[n][t]()},1)},u=function(){var t=n.location.href;t!==r&&(c(i),r=t)};c(t),n.setInterval(u,250),n.addEventListener("beforeunload",function(){c(e)})}();
