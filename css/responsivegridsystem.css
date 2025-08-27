@@ -75,7 +75,7 @@ font-size : 1em; /* 16 / 16  */ }
 
 p, ol, ul, dl, address { 
 margin-bottom : 1.5em; 
-font-size : 1em; /* 16 / 16 = 1 */ }
+font-size : 1.2em; /* 16 / 16 = 1 */ }
 
 p {
 hyphens : auto;  }
@@ -448,7 +448,7 @@ background-color : #ccc; }
 			.maincontent{
 				clear: both;
 				width: 80%; /* 1000px / 1250px */
-				font-size: 0.8125em; /* 13 / 16 */
+				font-size: 1.2em; /* 13 / 16 */
 				max-width: 92.3em; /* 1200px / 13 */
 				margin: 0 auto;
 				padding: 1em 0px;
@@ -810,3 +810,4 @@ p {
 -webkit-hyphenate-limit-after : 1;
 -webkit-hyphenate-limit-before : 3;
 -moz-hyphens : auto; }
+
