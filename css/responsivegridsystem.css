@@ -211,7 +211,7 @@ color : #fff;
     position: absolute;
     top: 20px;
     left: 20px;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 25, 25, 0.2);
     border-radius: 50%;
     width: 50px;
     height: 50px;
@@ -225,7 +225,7 @@ color : #fff;
 }
 
 .home-button:hover {
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(255, 25, 255, 0.3);
     transform: scale(1.1);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
@@ -837,5 +837,6 @@ p {
 -webkit-hyphenate-limit-after : 1;
 -webkit-hyphenate-limit-before : 3;
 -moz-hyphens : auto; }
+
 
 
